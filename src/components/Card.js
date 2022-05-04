@@ -11,7 +11,7 @@ const Card = () => {
       <div className="rating">
         <p>
           <FontAwesomeIcon className="star-icon" icon={faStar} /> 5.0
-          &#40;6&#41; &bull; USA
+          <span className="rating-add-info"> &#40;6&#41; &bull; USA</span>
         </p>
       </div>
       <p className="card-title">Life lessons with Katie Zaferes</p>
