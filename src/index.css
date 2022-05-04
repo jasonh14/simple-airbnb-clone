@@ -34,6 +34,8 @@
 
 .hero-txt {
   padding: 2vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-txt > h1 {
@@ -43,4 +45,29 @@
 .hero-txt > p {
   font-size: clamp(0.8rem, 3vw, 2rem);
   width: 100%;
+}
+
+.cards {
+  display: flex;
+  overflow-x: auto;
+}
+
+.card {
+  margin: 2vw;
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.rating,
+.card-title,
+.card-price {
+  font-size: clamp(0.8rem, 3vw, 2rem);
+}
+
+.card-price > span {
+  font-weight: 600;
+}
+
+.star-icon {
+  color: #fe395c;
 }
