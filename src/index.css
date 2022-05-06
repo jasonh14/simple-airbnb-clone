@@ -86,7 +86,7 @@
   font-weight: 500;
   background-color: white;
   padding: 1vw 2vw;
-  font-size: 0.8rem;
+  font-size: clamp(0.7rem, 3vw, 1.2rem);
   border-radius: 5px;
 }
 
@@ -99,7 +99,7 @@
   font-weight: 500;
   background-color: white;
   padding: 1vw 2vw;
-  font-size: 0.8rem;
+  font-size: clamp(0.7rem, 3vw, 1.2rem);
   border-radius: 5px;
 }
 
