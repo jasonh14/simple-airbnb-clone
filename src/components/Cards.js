@@ -1,11 +1,20 @@
 import Card from "./Card";
 
-const Cards = () => {
+const Cards = ({data}) => {
+  console.log(data);
   return (
     <div className="cards">
-      <Card />
-      <Card />
-      <Card />
+      {data.map((data, idx) => (
+        <Card
+          key={idx}
+          img={data.img}
+          rating={data.rating}
+          peopleCount={data.peopleCount}
+          country={data.country}
+          title={data.title}
+          price={data.price}
+        />
+      ))}
     </div>
   );
 };

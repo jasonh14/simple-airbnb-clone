@@ -18,7 +18,9 @@
 }
 
 .navbar-logo {
-  width: 15%;
+  width: 20%;
+  display: flex;
+  padding: 1.2vw 0;
 }
 
 .hero {
@@ -61,6 +63,10 @@
   margin: 2vw;
   width: 50%;
   flex-shrink: 0;
+}
+
+.card img > {
+  object-fit: cover;
 }
 
 .rating,
