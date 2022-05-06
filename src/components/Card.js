@@ -1,10 +1,10 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faStar} from "@fortawesome/free-solid-svg-icons";
 
-const Card = ({img, rating, peopleCount, country, title, price}) => {
+const Card = ({img, rating, peopleCount, country, title, price, online}) => {
   return (
     <div className="card">
-      <div>
+      <div className={online ? "card-img-online" : "card-img-soldout"}>
         <img className="w-100" src={img} alt="" />
       </div>
       <div className="rating">

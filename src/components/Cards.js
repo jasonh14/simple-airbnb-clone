@@ -13,6 +13,7 @@ const Cards = ({data}) => {
           country={data.country}
           title={data.title}
           price={data.price}
+          online={data.online}
         />
       ))}
     </div>

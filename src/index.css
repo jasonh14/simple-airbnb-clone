@@ -69,6 +69,40 @@
   object-fit: cover;
 }
 
+.card-img-online {
+  position: relative;
+}
+
+.card-img-soldout {
+  position: relative;
+}
+
+.card-img-online::after {
+  content: "ONLINE";
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  z-index: 1;
+  font-weight: 500;
+  background-color: white;
+  padding: 1vw 2vw;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
+.card-img-soldout::after {
+  content: "SOLD OUT";
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  z-index: 1;
+  font-weight: 500;
+  background-color: white;
+  padding: 1vw 2vw;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
 .rating,
 .card-title,
 .card-price {

@@ -15,6 +15,7 @@ const App = () => {
       country: "USA",
       title: "Life lessons with Katie Zaferes",
       price: "$136",
+      online: false,
     },
     {
       img: weddingImage,
@@ -23,6 +24,7 @@ const App = () => {
       country: "USA",
       title: "Learn wedding photography",
       price: "$125",
+      online: true,
     },
     {
       img: mountainImage,
@@ -31,8 +33,10 @@ const App = () => {
       country: "USA",
       title: "Group Mountain Biking",
       price: "$50",
+      online: true,
     },
   ]);
+
   return (
     <div>
       <Navbar />
