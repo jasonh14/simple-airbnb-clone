@@ -65,7 +65,7 @@
   flex-shrink: 0;
 }
 
-.card img > {
+.card img {
   object-fit: cover;
 }
 
